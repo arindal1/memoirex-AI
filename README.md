@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Memoirex AI
 
-## Getting Started
+Memoirex is a web-based application that uses Google Gemini 1.5 Flash API to generate detailed and comprehensive notes on any given topic. Designed with students and learners in mind, the app provides well-structured, easy-to-read notes to streamline the studying process.
 
-First, run the development server:
+### Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Generate Detailed Notes**: Enter a topic, and the app produces in-depth notes using engineered prompts.
+- **Interactive User Interface**: A smooth, dynamic UI built with modern frameworks.
+- **Markdown Support**: Notes are displayed with proper formatting using React Markdown and GFM extensions.
+- **Copy and Regenerate Notes**: Easily copy generated notes or regenerate them for refinement.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend**: ReactJS, TailwindCSS, Framer Motion
+- **Backend**: Next.js, Google Gemini 1.5 Flash API
+- **Markdown Parsing**: React Markdown, Remark GFM
+- **Styling**: Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. Enter a topic in the input field.
+2. Click "Generate Notes" to fetch detailed notes from Memoirex.
+3. View the generated notes in a markdown-friendly format.
+4. Copy the notes to your clipboard or regenerate them.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Dependencies:** [Next.js](https://nextjs.org/) - [React](https://reactjs.org/) - [TailwindCSS](https://tailwindcss.com/) - [Framer Motion](https://www.framer.com/motion/) - [React Markdown](https://github.com/remarkjs/react-markdown) - [Remark GFM](https://github.com/remarkjs/remark-gfm) - [Axios](https://axios-http.com/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For questions or feedback, please reach out via:
+- GitHub: [@arindal1](https://github.com/arindal1)
+- LinkedIn: [Arindal Char](https://linkedin.com/in/arindalchar)
+
+---
+
+Start generating smarter, comprehensive notes today with **Memoirex AI**!
