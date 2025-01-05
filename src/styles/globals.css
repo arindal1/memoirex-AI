@@ -14,6 +14,10 @@
   --light: #fff0dc;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--dark);
   color: var(--light);

@@ -23,7 +23,7 @@ At the end of the notes, include at least 10 FAQ, the most commonly asked questi
 Ensure the notes are detailed and cover every aspect of the topic. The goal is to have a complete, understandable, and comprehensive set of notes that will make studying efficient and easy, and don't shorten or summarize anything, provide the full concept and explaination.`
                 }]
             }]
-        });
+        }, {timeout: 50000});
 
             if (response.data.candidates && response.data.candidates.length > 0) {
                 const rawText = response.data.candidates[0].content.parts[0].text;

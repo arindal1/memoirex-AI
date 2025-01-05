@@ -58,7 +58,7 @@ const Home = () => {
         </div>
       )}
 
-      <div className="flex flex-col items-center min-h-screen min-w-fit bg-dark text-offwhite relative">
+<div className="flex flex-col items-center min-h-screen min-w-fit bg-dark text-offwhite relative px-4 sm:px-8">
         {step === 1 && <Header onContinue={() => setStep(2)} />}
         {step === 2 && (
           <NoteGenerator
