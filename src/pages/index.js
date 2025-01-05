@@ -17,7 +17,7 @@ const IndexPage = () => {
         {/* open graph meta tags */}
         <meta property="og:title" content="memoirex" />
         <meta property="og:description" content="Explore detailed notes and learn about important topics with AI-powered insights. Your knowledge companion!" />
-        <meta property="og:image" content="/images/thumbnail.png" loading="lazy" />
+        <meta property="og:image" content="/images/thumbnail.png" />
         <meta property="og:url" content="https://memoirex.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="memoirex" />
@@ -27,7 +27,7 @@ const IndexPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="memoirex" />
         <meta name="twitter:description" content="Memoirex is a web app where users can explore detailed notes on important topics using AI." />
-        <meta name="twitter:image" content="/images/thumbnail.png" loading="lazy" />
+        <meta name="twitter:image" content="/images/thumbnail.png" />
         <meta name="twitter:creator" content="@arindal_17" />
         
         {/* additional meta tags */}

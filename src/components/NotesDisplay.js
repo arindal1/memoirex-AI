@@ -17,7 +17,7 @@ const NotesDisplay = ({ notes, onRegenerate }) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
-            className="mt-8 mb-24 w-full max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full p-4 sm:px-6 md:px-8 bg-neutral-950 text-beige rounded-md xs:max-w-[80%]"
+            className="mt-8 mb-24 w-full max-w-full sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full p-4 sm:px-6 md:px-8 bg-neutral-950 text-beige rounded-md xs:max-w-[90%]"
         >
             <div className="markdown-content font-medium text-lg sm:text-base md:text-lg space-y-6">
                 <ReactMarkdown children={notes} remarkPlugins={[remarkGfm]} />
