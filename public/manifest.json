@@ -1,0 +1,21 @@
+{
+    "short_name": "memoirex",
+    "name": "Memoirex - Detailed Notes w/ AI",
+    "author": "arindal",
+    "icons": [
+      {
+        "src": "/images/memoir.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/images/memoir.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#131010",
+    "display": "standalone",
+    "theme_color": "#f0bb78"
+}  
