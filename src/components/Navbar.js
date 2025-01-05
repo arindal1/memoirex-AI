@@ -2,8 +2,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-// Example of media query in the component styles
-
 const Navbar = () => {
     return (
         <motion.nav
@@ -11,46 +9,47 @@ const Navbar = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
         className="flex justify-between items-center p-4 bg-neutral-950 text-beige border-b border-violet-200 w-full z-30 overflow-x-hidden"
-      >
-        <motion.h1
-          className="text-2xl font-raleway lg:text-3xl"
-          animate={{
-            scale: [1, 1.02, 1],
-            opacity: [0.9, 1, 0.9],
-            rotate: [0, 0, 0],
-          }}
-          transition={{
-            duration: 2,
-            repeat: Infinity,
-            repeatType: 'reverse',
-          }}
         >
-          memoirex
+        <motion.h1
+            className="text-2xl font-raleway lg:text-3xl"
+            animate={{
+                scale: [1, 1.02, 1],
+                opacity: [0.9, 1, 0.9],
+                rotate: [0, 0, 0],
+            }}
+            transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: 'reverse',
+            }}
+        ><Link href="/" onClick={() => window.location.reload()}>
+            memoirex
+        </Link>
         </motion.h1>
   
         <div className="flex space-x-4">
-          <Link href="https://github.com/arindal1/memoirex-AI" passHref>
+            <Link href="https://github.com/arindal1/memoirex-AI" passHref>
             <Image
-              src="/images/github.png"
-              alt="GitHub"
-              width={24}
-              height={24}
-              className="cursor-pointer hover:opacity-80"
+                src="/images/github.png"
+                alt="GitHub"
+                width={24}
+                height={24}
+                className="cursor-pointer hover:opacity-80"
             />
-          </Link>
-          <Link href="https://linkedin.com/in/arindalchar" passHref>
+            </Link>
+            <Link href="https://linkedin.com/in/arindalchar" passHref>
             <Image
-              src="/images/linkedin.png"
-              alt="LinkedIn"
-              width={24}
-              height={24}
-              className="cursor-pointer hover:opacity-80"
+                src="/images/linkedin.png"
+                alt="LinkedIn"
+                width={24}
+                height={24}
+                className="cursor-pointer hover:opacity-80"
             />
-          </Link>
+            </Link>
         </div>
-      </motion.nav>
+        </motion.nav>
     );
-  };
-  
+};
+
 
 export default Navbar;

@@ -2,19 +2,14 @@
 
 Memoirex is a web-based application that uses Google Gemini 1.5 Flash API to generate detailed and comprehensive notes on any given topic. Designed with students and learners in mind, the app provides well-structured, easy-to-read notes to streamline the studying process.
 
-### Features
 
-- **Generate Detailed Notes**: Enter a topic, and the app produces in-depth notes using engineered prompts.
-- **Interactive User Interface**: A smooth, dynamic UI built with modern frameworks.
-- **Markdown Support**: Notes are displayed with proper formatting using React Markdown and GFM extensions.
-- **Copy and Regenerate Notes**: Easily copy generated notes or regenerate them for refinement.
-
-### Tech Stack
-
-- **Frontend**: ReactJS, TailwindCSS, Framer Motion
-- **Backend**: Next.js, Google Gemini 1.5 Flash API
-- **Markdown Parsing**: React Markdown, Remark GFM
-- **Styling**: Tailwind CSS
+<div align="center">
+    <img src="https://cdn-icons-png.flaticon.com/128/1126/1126012.png" alt="react" width="40" height="40" style="border-radius: 50%;">
+    <img src="https://www.svgrepo.com/show/374118/tailwind.svg" alt="tailwinds" width="40" height="40" style="border-radius: 50%;">
+    <img src="https://img.icons8.com/fluent-systems-filled/200/FFFFFF/nextjs.png" alt="nextjs" width="40" height="40" style="border-radius: 50%;">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThr7qrIazsvZwJuw-uZCtLzIjaAyVW_ZrlEQ&s" alt="gemini" width="40" height="40" style="border-radius: 50%;">
+    <p><b>TECH STACK</b></p>
+</div>
 
 
 ### How It Works
@@ -26,6 +21,17 @@ Memoirex is a web-based application that uses Google Gemini 1.5 Flash API to gen
 
 
 **Dependencies:** [Next.js](https://nextjs.org/) - [React](https://reactjs.org/) - [TailwindCSS](https://tailwindcss.com/) - [Framer Motion](https://www.framer.com/motion/) - [React Markdown](https://github.com/remarkjs/react-markdown) - [Remark GFM](https://github.com/remarkjs/remark-gfm) - [Axios](https://axios-http.com/)
+
+
+<div align="center">
+    <img src="public/images/home.png" alt="home">
+    <p>[Home Page]</p>
+    <br> <br>
+    <img src="public/images/ss1.png" alt="screenshot 1">
+    <img src="public/images/ss2.png" alt="screenshot 2">
+    <p>[Example Notes]</p>
+    <br>
+</div>
 
 
 ### Contact

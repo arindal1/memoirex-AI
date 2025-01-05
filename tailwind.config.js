@@ -26,15 +26,9 @@ module.exports = {
         spaceMono: ['"Space Mono"', 'monospace']
       },
       screens: {
-        'aa': '344px',  // 344x882
-        'ab': '360px',  // 360x740
-        'bb': '375px',  // 375x667
-        'bc': '390px',  // 390x844
-        'cc': '414px',  // 414x896
-        'cd': '412px',  // 412x915
-        'dd': '430px',  // 430x932
-        'de': '491px',  // 491x1091
-      }
+        'ssm': '340px',
+        'xs': '420px'
+      },
     },
   },
   plugins: [],
